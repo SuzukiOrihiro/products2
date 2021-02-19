@@ -171,17 +171,4 @@ function($) {
 }(window.jQuery);
 
 
-//===========追加JavaScript==============
-const more = document.getElementById('more');
-const moreUp = document.getElementById('moreUp');
 
-more.addEventListener('click',()=>{
-    moreUp.classList.remove('hidden');
-    more.textContent = ('閉じる')
-});
-
-if(moreUp.classList.remove('hidden')===true){
-    more.addEventListener('click',()=>{
-        moreUp.classList.add('hidden');
-    });
-}
